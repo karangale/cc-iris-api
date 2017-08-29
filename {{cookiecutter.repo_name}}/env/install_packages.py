@@ -15,4 +15,4 @@ call("conda install --file %s --yes" % CONDA_REQUIREMENTS_PATH,
      shell=True)
 
 print("Virtual Environment is setup and activated.  "
-      "In future, run 'source activate env/venv (in Mac/Linix) and activate env/venv (in Windows)' to Activate it")
+      "In future, run 'source activate env/venv (in Mac/Linux) and activate env/venv (in Windows)' to Activate it")
